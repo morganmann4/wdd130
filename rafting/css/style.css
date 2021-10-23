@@ -42,7 +42,7 @@ main{
 
 h1{
     color: #000000;
-    font-size: 2.2rem;
+    font-size: 2.5rem;
    
 }
 
@@ -52,15 +52,27 @@ h1{
     padding: 0;
 }
 
+.mainnav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    
+}
+
 .mainnav li{
-    display: inline;
     padding: 20px;
+    flex: 1 1 auto;
     
 }
 
 .mainnav a{
     color:rgb(0, 0, 0);
-    
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: 600;
 }
 
 
@@ -72,7 +84,7 @@ h1{
 .logo{
     width: 160px;
     height: auto; 
-    margin-right: 10px;   
+    margin-right: 0 auto;   
 }
 
 
