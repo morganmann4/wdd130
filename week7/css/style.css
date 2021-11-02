@@ -130,6 +130,7 @@ width: 250px;
   display: grid;
   justify-items: center;
   text-align: center;
+  margin: 1rem;
   
 
 }
@@ -154,7 +155,7 @@ width: 250px;
   box-shadow: 0 0 50px black;
   grid-column: 2;
   height: auto;
-  margin-top: 35px;
+  margin-top: 25px;
   grid-row: 1/3;
   
  
@@ -164,6 +165,7 @@ width: 250px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   text-align: center;
+  margin: 1rem;
 }
 
 .layout2 h2 {
@@ -172,7 +174,6 @@ width: 250px;
   background-color:rgb(143, 212, 214);
   border: .5px solid black;
   padding: .5rem;
-  padding-left: 0;
   margin:  auto;
 
 }
