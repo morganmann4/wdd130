@@ -1,0 +1,45 @@
+body {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    font-family:'Sarabun', sans-serif;
+    background-color: rgb(209, 201, 209);
+  }
+  
+  header, footer {
+    margin: 1rem auto;
+    border: 1px solid #b1b1b1;
+    padding:  0.5rem;
+    background-color: #f57723;
+    font-family:'Roboto', sans-serif;
+    text-align: center;
+    border: 1px solid #0d0808;
+    
+  }
+  
+  
+  main {
+    margin: 1rem auto;
+    padding: 1rem;
+    border: 1px solid #0d0808;
+    background-color: #f2b541;
+    
+  }
+  
+  h1{
+    color: #000000;
+    font-size: 2.5rem;
+    text-align: center;
+    font-size:2.5rem;
+  }
+
+  
+  .page {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+
+  .wireframe a{
+    list-style-type: none;
+    text-decoration: none;
+  }
