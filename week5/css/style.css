@@ -1,0 +1,114 @@
+body {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    color: rgb(0, 0, 0);
+    background-color:rgb(143, 212, 214);
+    font-family:'Sarabun', sans-serif;
+    
+}
+
+
+
+header, footer{
+    margin: 1rem auto;
+    border: 1px solid #b1b1b1;
+    padding:  0.5rem;
+    background-color: rgb(255, 225, 170);
+    font-family:'Sarabun', sans-serif;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+header {
+    grid-template-columns: 200px 1fr;
+    font-size: 22px;
+    
+  }
+  
+footer {
+    grid-template-columns: 480px 1fr;
+    
+  }
+
+
+main{
+    margin: 1rem auto;
+    background-color: rgb(255, 225, 170);
+    padding: 1rem;
+}
+
+h1{
+    color: #000000;
+    font-size: 2.5rem;
+   
+}
+
+.mainnav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.mainnav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    
+}
+
+.mainnav li{
+    padding: 20px;
+    flex: 1 1 auto;
+    
+}
+
+.mainnav a{
+    color:rgb(0, 0, 0);
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+
+.page{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.logo{
+    width: 160px;
+    height: auto; 
+    margin-right: 0 auto;   
+}
+
+
+.images{
+    width: 500px;
+    height: auto;
+    box-shadow: 0 0 20px #000000;
+}
+
+.hero-image{
+    width: 100%;
+    height: auto;
+    box-shadow: 0 0 20px #000000;
+}
+
+.socialmedia{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: .5rem;
+}
+
+.socialmedia img {
+    width: 60px; 
+    height: auto;
+    margin: .5rem;
+}
