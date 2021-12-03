@@ -1,0 +1,101 @@
+
+
+
+body {
+    background: linear-gradient(to right, #8e9eab, #eef2f3);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Sarabun', sans-serif;
+    letter-spacing: 0.03em;
+  }
+  
+footer {
+    display: flex;
+    align-items: center; 
+}
+
+.card {
+    border-radius: 5%;
+    display: grid;
+    background-color: rgb(255, 255, 255);
+    width: 400px; 
+    height: 500px;
+    box-shadow: 0 0 10px rgb(59, 59, 59);
+
+}
+
+.card-body {
+    padding-right: 20px;
+    padding-left: 20px;
+    margin: auto;
+
+}
+
+.image-container {
+    position: relative;
+  }
+
+.temple-img {
+    position: relative;
+    height: auto;
+    width: 400px;
+    border-top-right-radius: 5%;
+    border-top-left-radius: 5%;
+
+}
+
+.heart {
+    height: 80px;
+    width: auto;
+    position: absolute;
+    right: 15px; 
+    top: 7px;
+    transition-duration: .3s;
+    margin: auto;
+}
+
+.heart:hover {
+    transform: scale(1.2);
+
+}
+
+h2 {
+    text-align: center;
+    font-size: xx-large;
+    margin-bottom: auto;
+}
+
+.description {
+    font-size: 18px;
+    margin-bottom: auto;
+}
+
+.SQFT {
+    font-weight: 600;
+    font-size: 20px;
+    font-variant-caps: all-small-caps;
+    width: fit-content;    
+}
+
+
+.button {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 800;
+    width: 140px;
+    padding: 3px 10px;
+    margin-left: 90px;
+    border-radius: 10px;
+    background-color: rgb(230, 230, 230);
+    border: 1px solid #949494;
+    color:#000000;
+
+}
+
+.button:hover {
+    background-color: black;
+    color: white;
+}
