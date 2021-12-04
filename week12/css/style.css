@@ -1,6 +1,5 @@
 
 
-
 body {
     background: linear-gradient(to right, #8e9eab, #eef2f3);
     height: 100vh;
@@ -21,7 +20,7 @@ footer {
     display: grid;
     background-color: rgb(255, 255, 255);
     width: 400px; 
-    height: 500px;
+    height: auto;
     box-shadow: 0 0 10px rgb(59, 59, 59);
 
 }
@@ -63,13 +62,14 @@ footer {
 
 h2 {
     text-align: center;
-    font-size: xx-large;
     margin-bottom: auto;
+    font-size: 2rem;
 }
 
 .description {
     font-size: 18px;
     margin-bottom: auto;
+    
 }
 
 .SQFT {
