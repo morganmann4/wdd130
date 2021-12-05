@@ -1,45 +1,127 @@
 body {
-    font-size: 18px;
-    margin: 0;
-    padding: 0;
-    font-family:'Sarabun', sans-serif;
-    background-color: rgb(209, 201, 209);
-  }
-  
-  header, footer {
-    margin: 1rem auto;
-    border: 1px solid #b1b1b1;
-    padding:  0.5rem;
-    background-color: #f57723;
-    font-family:'Roboto', sans-serif;
-    text-align: center;
-    border: 1px solid #0d0808;
-    
-  }
-  
-  
-  main {
-    margin: 1rem auto;
-    padding: 1rem;
-    border: 1px solid #0d0808;
-    background-color: #f2b541;
-    
-  }
-  
-  h1{
-    color: #000000;
-    font-size: 2.5rem;
-    text-align: center;
-    font-size:2.5rem;
-  }
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  font-family:'Sarabun', sans-serif;
+  background-color: rgb(209, 201, 209);
+}
 
+header, footer {
+  margin: 1rem auto;
+  padding:  0.5rem;
+  background-color: #f57723;
+  font-family:'Roboto', sans-serif;
+  text-align: center;
+  border: 1px solid #0d0808;
   
-  .page {
-    max-width: 960px;
-    margin: 0 auto;
-  }
+} 
 
-  .wireframe a{
-    list-style-type: none;
-    text-decoration: none;
-  }
+header {
+  display: flex;
+  font-size: 30px;
+  
+}
+
+footer {
+  grid-template-columns: 480px 1fr;
+  display: grid;
+  justify-items: center;
+  text-align: center;
+  
+}
+
+main {
+  margin: 1rem auto;
+  padding: 1rem;
+  border: 1px solid #0d0808;
+  background-color: #f2b541;
+  
+}
+
+h1{
+  color: #000000;
+  font-size: 2.5rem;
+  text-align: center;
+  font-size:2.5rem;
+}
+
+
+.page {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.wireframe a{
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.mainnav{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.mainnav ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  
+}
+
+.mainnav li{
+  padding: 0px;
+  margin-left: 130px;
+  flex: 1 1 auto; 
+  
+}
+
+.mainnav a{
+  color:rgb(0, 0, 0);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.herodiv {
+  position: relative;
+  width: 100%;
+}
+
+.hero-image{
+  width: 100%;
+  height: 350px;
+  box-shadow: 0 0 20px #000000;
+  margin-bottom: .5rem;
+}
+
+
+
+.socialmedia{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: .5rem;
+}
+
+.socialmedia img {
+  width: 60px; 
+  height: auto;
+  margin: .5rem;
+}
+
+.genre ul{
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style-type: none;
+}
+
+.genre a{
+  padding: 60px;
+  text-decoration: none;
+  color: black;
+}
