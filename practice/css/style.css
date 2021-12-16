@@ -3,8 +3,6 @@ body {
   margin: 0px;
   padding: 0px;
   font-family:'Sarabun', 'Poppins';
-  /* background-color: rgb(209, 201, 209); purple*/  
-  /* background-color: rgb(187, 187, 187); grey*/
   background-color: rgba(207, 200, 207, 0.863);
 }
  
@@ -71,6 +69,17 @@ h2 {
   margin: 0 auto;
 }
 
+img {
+  width: auto;
+  height: auto;
+}
+
+
+.logo {
+  width: 150px;
+  height: auto;
+  margin-right: -30px;
+}
 
 a {
   text-decoration: none;
@@ -83,7 +92,6 @@ a {
   justify-content: center;
   padding: 20px 20px;
   margin: auto;
-  margin-left: 20px;
  
 }
 
@@ -96,14 +104,14 @@ a {
 
 .mainnav li {
   padding: 5px 25px;
-  margin: 5px;
+  margin-right: 15px;
   
 }
 
 .mainnav a {
   color:rgb(0, 0, 0);
   font-weight: 600;
-  padding: 5px 20px;
+  padding: 10px 20px;
   margin: 5px 0px;
   font-size: 35px;
   font-family: "Sarabun";
@@ -116,11 +124,11 @@ a {
 }
 
 
-.cart {
+.fa {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0px 10px;
+  margin-left: 50px;
 }
 
 
@@ -138,10 +146,7 @@ a {
 
 .herodiv h1 {
   position: absolute;
-  /* background-color: rgb(209, 201, 209); */
-  /* background-color: #f57723; */
   background-color: #fa8232;
-
   border: 3px solid rgb(0, 0, 0);
   letter-spacing: 2px;
   font-family: 'Poppins';
@@ -189,15 +194,12 @@ a {
   color: #1a1a1a;
   border-bottom: 1px solid black;
   width: 70%;
-  /* padding-bottom: 10px; */
 
 }
 
 h3 {
   font-size: 30px;
   font-family: "Sarabun";
-  /* padding-bottom: 0px; */
-  /* margin-bottom: -10px; */
   margin: auto;
   margin-top: 20px;
   margin-left: 30px;
@@ -213,8 +215,6 @@ h3 {
   display: grid;
   grid-template-columns: 2fr 1fr;
   margin-top: 20px;
-  /* padding: 10px; */
-  /* justify-content: center; */
   justify-items: center;
   text-align: center;
   margin-left: 15px;;
@@ -254,9 +254,6 @@ h3 {
 
 
 .feature-box {
-  /* background-color: rgba(194, 194, 194, 0.767); */
-  /* background-color: rgb(184, 158, 187); */
-  /* box-shadow: 0 .5rem 1rem rgb(41, 41, 41); */
   text-align: center;
   border-radius: 10px;
   margin: 30px 20px;
@@ -362,7 +359,7 @@ h3 {
   background-color: #ffc506;
   border-bottom: 1px solid black;
   box-shadow: 0 0 4px rgb(41, 41, 41);
-  padding: 5px;
+  padding: 10px;
 
  
 }
@@ -410,16 +407,15 @@ h3 {
   background-color: #ff891b;
   border: .5px solid black;
   font-family: 'Sarabun';
-  width: 100%;
+  width: 80%;
   margin: auto;
   margin-bottom: 20px;
-  padding: 10px 0px;
+  padding: 0px 3px;
   text-align: center;
 }
 
 
 .box {
-  /* background-color: rgba(194, 194, 194, 0.767); */
   text-align: center;
   margin: 20px 15px;
   align-items: center;
