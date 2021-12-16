@@ -79,6 +79,7 @@ img {
   margin: 0 auto;
 }
 
+<<<<<<< HEAD
 
 a {
   text-decoration: none;
@@ -591,3 +592,79 @@ input, textarea {
 }
 
 
+=======
+.wireframe a{
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.mainnav{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.mainnav ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  
+}
+
+.mainnav li{
+  padding: 0px;
+  margin-left: 130px;
+  flex: 1 1 auto; 
+  
+}
+
+.mainnav a{
+  color:rgb(0, 0, 0);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.herodiv {
+  position: relative;
+  width: 100%;
+}
+
+.hero-image{
+  width: 100%;
+  height: 350px;
+  box-shadow: 0 0 20px #000000;
+  margin-bottom: .5rem;
+}
+
+
+
+.socialmedia{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: .5rem;
+}
+
+.socialmedia img {
+  width: 60px; 
+  height: auto;
+  margin: .5rem;
+}
+
+.genre ul{
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style-type: none;
+}
+
+.genre a{
+  padding: 60px;
+  text-decoration: none;
+  color: black;
+}
+>>>>>>> 6b8d2470a9a00a274e13873f104ce42f2d892d02
