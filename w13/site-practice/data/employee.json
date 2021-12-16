@@ -1,0 +1,31 @@
+{
+    "employee":[
+    {
+        "name": "Marcos",
+        "lastname":"Rodriguez",
+        "level": "Class V",
+        "experience": "15 years",
+        "email": "mrodriguez@sra.com",
+        "imgurl": "images/employee1.jpg",
+        "descrip": "A latino guy with a good sense of humor, but and expert about rafting. A family man, who enjoys expend time with his family, and show his skills in sports, at his 46 years old, still have the young spirit, combining that with knowlege make him one of the best in his job."
+    },
+    {
+        "name": "Freddy",
+        "lastname":"Martins",
+        "level": "Class III",
+        "experience": "5 years",
+        "email": "tmartins@sra.com",
+        "imgurl": "images/employee2.jpg",
+        "descrip": "Freddy is the younger of ower family, brave guy, mature and careful with his tour's members. A kind man, with a young family. hi is 25, hi has a newborn baby Katie. Freddy was raised in Boise, he knows about rivers a lot of experience despite his age."
+    },
+    {
+        "name": "Bill",
+        "lastname":"Witzke",
+        "level": "Class VI",
+        "experience": "22 years",
+        "email": "bwitzke@sra.com",
+        "imgurl": "images/employee3.jpg",
+        "descrip": "We know him as the Beast, the only pro we know with a Class VI, he is from Salt Lake, is you want to know something about rivers, he will know it, he knows every corner of the rivers, and he is the one for our Adventure 3 program, and for a special request by pros. He is the best."
+    }
+]
+}

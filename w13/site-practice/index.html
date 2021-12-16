@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Salmon River Adventure final project">
+    <meta name="author" content="Cristhians Ruiz">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salmon River Adventure homepage</title>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="homePage">
+    <header>
+        <a href="index.html"><img class="logo" src="images/logo.png" alt="Salmon River Adventure"></a>
+        
+        <section class="subHeader">
+            <h1>Salmon River Adventure</h1>
+            <div class="moto">A new adventure every day</div>
+        </section>
+    </header>
+    
+    <nav>
+        <ul class="menubar hide">
+            <li class="menu"><a class="menuText" href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a class="homePage" href="#">Home</a></li>
+            <li><a class="activitiesPage" href="activities.html">Activities</a></li>
+            <li><a class="riverguidePage" href="riverguide.html">River guide</a></li>
+            <li><a class="contactPage" href="contact.html">Contact</a></li>
+            <li><a class="reservationPage" href="reservation.html">Reservation</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <article class="landing">
+            <h2>Landing</h2>
+            <figure>
+                <!-- <img src="https://via.placeholder.com/900x450" alt="landing image river adventure"> -->
+                <img src="images/angga-indratama-unsplash960.jpg" alt="landing image river adventure">
+            </figure>
+            <section class="weather">
+                <h2>Riggins, Idaho Summary Weather conditions</h2>
+                <article class="summary">
+                    <h3>Riggins, Idaho Summary Wheather conditions</h3>
+                    <div class="row">
+                        <span class="left">Currently:</span>
+                        <span id="currently" class="right"></span>
+                    </div>
+                    <div class="row">
+                        <span class="left">High:</span>
+                        <span class="right"><span id="temp"></span> °F</span>
+                    </div>
+                    <div class="row">
+                        <span class="left">Wind Chill:</span>
+                        <span class="right" id="windchill"></span>
+                    </div>
+
+                    <div class="row">
+                        <span class="left">Humidity:</span>
+                        <span id="humidity" class="right"></span>
+                    </div>
+
+                    <div class="row">
+                        <span class="left">Wind Speed:</span>
+                        <span class="right"><span id="speed">5</span> mph</span>
+                    </div>
+                </article>
+
+
+            </section>
+            <a class="callToAction" href="reservation.html">Reserve your adventure!</a>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2020 | Cristhians Ruiz | Lima, Perú | <span><a href="https://www.byui.edu/online">BYUI Online
+                    learning</a></span> | <a href="#">Resources</a></p>
+    </footer>
+
+    <script src="js/weather.js"></script>
+    <script src="js/toogleMenu.js"></script>    
+</body>
+</html>

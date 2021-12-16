@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Dreamy Cake</title>
+    <!--Bootstrap.css-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <!--Jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!--popper-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+    <!--fontawsome for social media icons using svg-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="stylesheet.css">
+
+    <script> 
+        $(document).ready(function(){
+          $(".questions").click(function(){
+            $(this).next(".answers").slideToggle(400,"swing");
+          });
+        });
+    </script>
+    <style> 
+        .questions, .answers {
+          padding: 5px;
+          font-size: 11pt;
+          
+        }
+        .questions{
+            padding:10px;
+            font-weight: 550;
+            background-color: #ffafaf;
+            border-bottom: solid 1px #4f3b24;
+            text-align: center;
+        }
+        .answers {
+          padding: 15px;
+          display: none;
+          text-align: left;
+
+        }
+        .faq{
+            width: 100%;
+        }
+    </style>
+    
+</head>
+<body>
+    <!--top header-->
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+                    <a title="logo" style="outline:none">
+                        <img class="logo" alt="logo" src="logo.png">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--top menu-->
+    <nav class=" navbar navbar-expand-md navbar-light bg-light sticky-top">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="logo.png" width="50" height="50"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div>
+            <form class="form-inline" action="/action_page.php">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search cakes...">
+                <button class="btn btn-success" type="submit">Search</button>
+            </form>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="page1.html">Albums</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="page2.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="page3.html">Links</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Biography</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </nav>
+    
+    <!--Jumbotron-->
+     
+    <!--Welcome Section-->
+    <div class="container-fluid padding">
+        <div class="row welcom text-center">
+            <div class="col-12">
+                <h1 class="display-4">FAQ</h1>
+            </div>
+            <hr>
+            <div class="col-12">
+                <p class="lead">Frequently Asked Questions from our customers.</p>
+            </div>
+            <!-- FAQ Questions list --> 
+            <div class="faq">
+               <div class= "questions">
+                    What cake size would be appropriate for my occasion? 
+                </div>
+                <div class="answers">
+                    <p>We offer total 4 different size options, here are the general portions each size offers:  </p>
+                    <p>Small: about 10~12 poritions<br>Medium: 13~25 portions <br>Large: 40~55 portions <br>Extra Large: 100 portions </p>
+                    <p>We suggest having small~medium for relatively smaller birthday parties, baby showers, and suggest having anything beyond Large option for bigger occassions like weddings and parties. </p>
+                </div>
+
+                <div class= "questions">
+                    Is it possible to pick up my cake from the store? 
+                </div>
+                <div class="answers">
+                    <p>Dreamy Cake offers delivery options for our clients, which safely gets your beautifully customized cakes to your location. For this reason, we strongly suggest that our customres use the delivery option to avoid any damages done to the cake.</p>
+                    <p>In order to pick-up your own cake, choose "pick-up" option on the delivery option after customizing your cake. Carefully read the liability agreement terms, and click "I Agree." Then, choose the closest location and choose a pick-up time.Your cake will be ready to be picked up on the promised time. </p>
+                 
+                </div> 
+
+                <div class= "questions">
+                When should I order my cake so it can be delivered on time? 
+                </div>
+                <div class="answers">
+                    <p>We value customer satisfaction, and therefore we always strive to deliever the best quality product to our clients. </p>
+
+                    <p>In order for us to do this, we take orders a week in advance at minimum. However, we strongly recommend to order two weeks in advance.</p>
+                    
+                </div> 
+            </div>
+            
+        </div>
+    </div>
+
+    <!--Two column section-->
+    <div class="container-fluid padding">
+        
+    </div>
+    <hr class="my-4">
+    <!--fixed image-->
+    <figure>
+        <div class="fixed-wrap">
+            <div id="fixed">
+            </div>
+        </div>
+    </figure>
+    
+    <!--bottom info-->
+    <footer>
+        <div class="container-fluid padding">
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <img src="http://ww1.prweb.com/prfiles/2011/05/02/8772054/Bakery_Logo.jpg" height="30" width="90">
+                    <hr class="light">
+                    <p>000-000-0000</p>
+                    <p>Email: aaaaaaaaaaa@gmail.com</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Address:</h5>
+                    <hr class="light">
+                    <p>123 State St. </p>
+                    <p>Salt Lake City, Utah</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Second Address:</h5>
+                    <hr class="light">
+                    <p>1232 North Temple</p>
+                    <p>Salt Lake City, Utah</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    </body>
+
+</html>

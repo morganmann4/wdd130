@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Salmon River Adventure final project">
+    <meta name="author" content="Cristhians Ruiz">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salmon River Adventure Reservation</title>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="reservationPage">
+    <header>
+        <a href="index.html"><img class="logo" src="images/logo.png" alt="Salmon River Adventure"></a>
+        
+        <section class="subHeader">
+            <h1>Salmon River Adventure</h1>
+            <div class="moto">A new adventure every day</div>
+        </section>
+    </header>
+    
+    <nav>
+        <ul class="menubar hide">
+            <li class="menu"><a class="menuText" href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a class="homePage" href="index.html">Home</a></li>
+            <li><a class="activitiesPage" href="activities.html">Activities</a></li>
+            <li><a class="riverguidePage" href="riverguide.html">River guide</a></li>
+            <li><a class="contactPage" href="contact.html">Contact</a></li>
+            <li><a class="reservationPage" href="reservation.html">Reservation</a></li>
+        </ul>
+    </nav>
+    
+    <main >
+        <article class="tableTours">
+            <h2>Adventure choices</h2>
+            <table id="reservation">
+                <tbody>
+                    <tr>
+                        <th>Adventure 1</th>
+                        <th>Adventure 2</th>
+                        <th>Adventure 3</th>
+                    </tr>
+
+                    <tr>
+                        <td>Roockie level</td>
+                        <td>Big guy level</td>
+                        <td>Master level</td>
+                    </tr>
+                    <tr>
+                        <td>8 hour trip</td>
+                        <td>1 day trip</td>
+                        <td>4 day trip</td>
+                    </tr>
+                    <tr>
+                        <td class="adventure1">$100</td>
+                        <td class="adventure2">$300</td>
+                        <td class="adventure3">$1200</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </article>
+
+        <article class="formPrice">
+            <h2>Make Your Reservation</h2>
+            <form method="get" action="#">
+                <fieldset>
+                    <legend>Sign Up</legend>
+                    <label class="top">
+                        Your name* <input type="text" name="fullName" id="fullNmae" required pattern="[A-Za-z ]{5,}">
+                    </label>
+                    <label class="top">
+                        Your email <input type="email" name="email" id="email" placeholder="user@email.com" required>
+                    </label>
+                    <label class="top">
+                        Your phone number* <input type="tel" name="phone" id="phone" required>
+                    </label>
+                    <label class="top">
+                        Select adventure 
+                        <select name="adventure" id="adventure">
+                            <option value="" selected disabled>Please Select</option>
+                            <option value="adventure1">Adventure1</option>
+                            <option value="adventure2">Adventure2</option>
+                            <option value="adventure3">Adventure3</option>
+                        </select>
+                    </label>
+                    <label class="top">
+                        Start date<input type="date" name="adventureDate" id="adventureDate">
+                    </label>
+                    <label class="top"> Input your comments, questions or wishes 
+                        <textarea name="comments" id="comments" cols="30" rows="5"></textarea>
+                    </label>
+
+                </fieldset>
+                <input type="submit" value="Send my comments" class="button">
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2020 | Cristhians Ruiz | Lima, Perú | <span><a href="https://www.byui.edu/online">BYUI Online
+                    learning</a></span> | <a href="#">Resources</a></p>
+    </footer>
+
+    <script src="js/toogleMenu.js"></script>    
+</body>
+</html>

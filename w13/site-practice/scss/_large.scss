@@ -1,0 +1,120 @@
+main {
+    margin: 0 auto;
+    max-width: 960px;    
+}
+
+.landing {
+    position: static;
+    display: flex;
+    flex-flow: column;
+
+    .weather {
+        h2 {
+        display: block;
+        margin: 0;
+        padding: 0.5rem;
+        font-size: 1.2rem;
+        background-color: $navActiveBackground;
+        }
+        
+        border: $navActiveBackground solid 5px;
+        margin-bottom: 1rem;
+        padding: 0;
+    }
+
+    .summary {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        position: static;
+        order: 1;
+        background-color: $colorWhite;
+        padding: 0.2rem;
+        margin-bottom: 15px;
+        color: $colorBlack;
+        box-shadow: none;
+        max-width: 960px;
+        font-size: 1rem;
+        font-weight: $heavyWeight;
+        h3 {
+            display: none;
+        }
+
+        .row {
+            display: block;
+            flex: 1 1 100%;
+            padding-top: 1rem;
+        }
+
+        .left, .right{
+            margin: 0;
+            padding: 0;
+        }
+
+    }
+
+    figure {
+        order: 2;
+    }
+
+    .callToAction {
+        order: 3;
+        margin-right: 0;
+        
+    }
+
+}
+
+//---- Contact ------------
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.form {
+    margin: 0 1rem;
+    flex: 1 1 100%;
+    max-width: 400px;
+    form fieldset {
+        padding: .5rem 4% 1rem 10%;
+    }
+}
+
+.locAndInfo {
+    flex: 1 1 100%;
+    max-width: 420px;
+    margin: 0 1rem;
+}
+
+//---------activities----------
+.choices {
+    display: grid;
+    column-gap: 5px;
+    grid-template-columns: 1fr 1fr 1fr;    
+}
+
+.adventureChoice {
+    min-width: 300px;
+}
+
+.last {
+    grid-column: span 1;
+    column-gap: 5px;
+}
+
+//--------------- guides -----------
+
+.employees {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+
+    section {
+        max-width: 300px;
+    }
+
+    section:last-child {
+        grid-column: span 1;
+    }
+}
